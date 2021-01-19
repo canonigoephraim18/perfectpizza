@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' href='main.css'>
+    <script src="main.js"></script>
+  
+   
+
+</head>
+<body>
+
+    <div class="topnav" id="myTopnav">
+        <a href="#home">Home</a>
+        <a href="#menu">Menu</a>
+        <a href="#contact">Contact</a>
+        <a href="#about">About</a>
+        <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+    </div>
+
+    <div class="bgImage">
+            <p class="top-middleText">Pizza Perfect</p>
+            <p class="bottom-leftText">OPEN FROM 10AM to 12PM</p>
+    </div>
+ 
+
+
+    <a href="#menu">
+    <div class="button-down"></div>
+    </a>
+
+    <div class="menu-holder" id="menu">
+
+
+
+        <h1>THE MENU</h1>
+        <div class="menu-options">
+            
+        
+        <a class=" tablink" href="javascript:void(0)" onclick="openMenu(event, 'Pizza');">
+        PIZZA</a>
+
+        <a class=" tablink" href="javascript:void(0)" onclick="openMenu(event, 'Pasta');">
+        PASTA</a>
+   
+        <a class=" tablink" href="javascript:void(0)" onclick="openMenu(event, 'Starter');">
+        STARTER</a>
+
+        </div>
+        
+        <div id="Pizza" class="pizza-infos menu">
+            <div class="list-info">
+                <h2>Margherita <span>₱165</span></h2>
+                <p>Fresh tomatoes, fresh mozzarella, fresh basil</p>
+                <hr>
+            </div>
+
+            <div class="list-info">
+                <h2>Formaggio<span>₱150</span></h2>
+                <p>Four cheeses (mozzarella, parmesan, pecorino, jarlsberg)</p>
+                <hr>
+            </div>
+
+            <div class="list-info">
+                <h2>Chicken<span>$170</span></h2>
+                <p>Fresh tomatoes, mozzarella, chicken, onions</p>
+                <hr>
+            </div>
+
+            <div class="list-info">
+                <h2>Pineapple'o'clock<span>$175</span></h2>
+                <p>Fresh tomatoes, mozzarella, fresh pineapple, bacon, fresh basil</p>
+                <hr>
+            </div>
+
+            <div class="list-info">
+                <h2>MeatTown<div class="best-tag">Bestseller!</div><span>₱155</span></h2>
+                <p>Fresh tomatoes, mozzarella, hot pepporoni, hot sausage, beef, chicken</p>
+                <hr>
+            </div>
+
+            <div class="list-info">
+                <h2>Parma<div class="new-tag">New</div><span>₱180</span></h2>
+                <p>Fresh tomatoes, mozzarella, parma, bacon, fresh arugul</p>
+                
+            </div>
+        </div>
+
+        <div id="Pasta" class="pasta-infos menu">
+            <div class="list-info">
+                <h2>Lasagna<div class="best-tag">Bestseller!</div><span>₱135</span></h2>
+                <p>Special sauce, mozzarella, parmesan, ground beef</p>
+                <hr>
+            </div>
+
+            <div class="list-info">
+                <h2>Ravioli<span>₱145</span></h2>
+                <p>Ravioli filled with cheese</p>
+                <hr>
+            </div>
+
+            <div class="list-info">
+                <h2>SpaghettiClassica<span>₱110</span></h2>
+                <p>Fresh tomatoes, onions, ground beef</p>
+                <hr>
+            </div>
+
+            <div class="list-info">
+                <h2>Seafoodpasta<span>₱250</span></h2>
+                <p>Fresh tomatoes, mozzarella, fresh pineapple, bacon, fresh basil</p>
+                
+            </div>
+
+      
+        </div>
+
+        <div id="Starter" class="starter-infos menu">
+            <div class="list-info">
+                <h2>Today'sSoup<div class="seasonal-tag">Seasonal</div><span>₱110</span></h2>
+                <p>Ask the waiter</p>
+                <hr>
+            </div>
+
+            <div class="list-info">
+                <h2>Bruschetta<span>₱130</span></h2>
+                <p>Bread with pesto, tomatoes, onion, garlic</p>
+                <hr>
+            </div>
+
+            <div class="list-info">
+                <h2>GarlicBread<span>₱160</span></h2>
+                <p>Grilled ciabatta, garlic butter, onions</p>
+                <hr>
+            </div>
+
+            <div class="list-info">
+                <h2>Tomozzarella<span>₱105</span></h2>
+                <p>Tomatoes and mozzarella</p>
+
+            </div>
+
+      
+        </div>
+
+
+       
+
+
+
+    </div>
+
+    <div class="about-container" id="about">
+        <div class="about-content">
+
+            <div class="about-txt">About</div>
+            <img class="chef-profile" src="images/chef.jpg">
+            <h4>THE CHEF? MR. ITALIANO HIMSELF</h4>
+            <p>The Pizza Perfect was founded in blabla by Mr. Italiano in lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <h3>WE ARE PROUD OF OUR INTERIORS.</h3>
+            <img class="interior-img" src="images/interior.jpg">
+            <h2>OPENING HOURS</h2>
+
+            <div class="op-container">
+                <div class="op-hour">
+                    <h4>Mon & Tue CLOSED</h4>
+                    <h4>Wednesday 10:00 A.M - 8:00 P.M</h4>
+                    <h4>Thursday 10:00 A.M - 8:00 P.M</h4>
+                </div>
+                <div class="op-hour">
+                    <h4>Friday 10:00 A.M - 10:00 P.M</h4>
+                    <h4>Saturday 10:00 A.M - 10:00 P.M</h4>
+                    <h4>Sunday Closed</h4>
+                </div>
+           
+            </div>
+        
+        </div>
+    </div>
+
+    <div class="contact-container" id="contact">
+        <img class="map-img" src="images/map.jpg">
+        <h1>Contact Us</h1>
+
+        <div class="contact-content">
+            <h4>Find us at some address at Sample St. Near Sample Mall Cebu City, Cebu 6000 or call us at +(639)123456789<h4>
+            <h4>FYI! We offer full-service catering for any event, large or small. We understand your needs and we will cater the food to satisfy the biggerst criteria of them all, both look and taste.</h4>
+            <h3>Reserve a table, ask for today's special or just send us a message:</h3>
+            
+            <div class="contact-inputs">
+                <div class="contact-a">
+                Name:<input type="text">
+                <br>How many people:<input type="number">
+                <br>Date:<input type="date">
+                </div>
+
+                <div class="contact-b">
+               <textarea placeholder="Comment here!.."></textarea>
+                </div>
+            </div>
+        </div>
+
+        <button class="submit-btn">Submit Message</button>
+    
+    </div>
+
+    <footer>
+        <div>© Powered by Ephraim Canonigo</div>
+    </footer>
+
+        
+
+
+
+    
+</body>
+</html> 
